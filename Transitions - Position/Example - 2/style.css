@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+    background-color:teal
+}
+
+.box{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(63, 4, 118);
+    background-color: rgb(219, 98, 98);
+    margin: 1%;
+    transition-duration: 2s;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+
+.box.MoveIt1 {
+    transform: translate(700px);
+  }
+.box.MoveIt2 {
+    transform: translate(700px, 700px);
+  }
+.box.MoveIt3 {
+    transform: translate(0px, 700px);
+  }
+.box.MoveIt4 {
+    transform: translate(0px, 0px);
+  }
+
+
